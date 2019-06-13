@@ -1,4 +1,4 @@
-# Lập trình ASP.NET Framework thiết kế website
+# Lập trình ASP.NET Framework thiết kế website GAME
 <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62315682_317366229192806_1863600345687523328_n.png?_nc_cat=108&_nc_oc=AQkHrs6cHIdEox6o4UOfkyF0XTN_Q5nEaqrIprZLtPK4GldXQZiBHMZZvhkMKkurnsc&_nc_ht=scontent.fdad2-1.fna&oh=8b07207d8544adac8aa7ab8cb530adff&oe=5D85FFBE" border="0" />
 * mở đầu giao diện website game gồm có các bộ cục như sau:<br/>
 * Phần Head: Là phần tiêu đề hoặc là phần hiển thị logo của website giúp người xem nhận dạng được đó là trang web thuộc thể loại gì !
