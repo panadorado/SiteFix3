@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="Home"  description="Home">
+    <siteMapNode url="~/Content.aspx" title="Trang chủ"  description="đi tới trang chủ" />
+    <siteMapNode url="https://www.facebook.com/pg/SuperMarioOdyssey/community/" title="Cộng đồng"  description="đi tới trang cộng đồng"/>
+    <siteMapNode url="~/Events.aspx" title="Sự kiện"  description="đi tới trang cộng đồng"/>
+    <siteMapNode url="~/Signup.aspx" title="Đăng ký" description="đi tới trang đăng ký"/>
+  </siteMapNode>
+</siteMap>

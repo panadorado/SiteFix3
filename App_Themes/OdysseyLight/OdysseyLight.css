@@ -1,0 +1,402 @@
+﻿* {
+    font-family: Arial;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.ErrorMessage {
+    color: Red;
+}
+
+.CompileMessage {
+    color: green;
+}
+
+header {
+    background-image: url('Images/header.png');
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 86px;
+    box-shadow: 5px 10px 8px #000;
+}
+
+header a {
+    background-image: url('Images/logo_MarioOdyssey.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 82px;
+    width: 303px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url('Images/bg_body.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.Introduction {
+    font-style: italic;
+    color: #003399;
+}
+
+#PageWrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+/***************Thanh dieu huong************/
+
+nav {
+    position: center;
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b11b1d;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #000;
+}
+
+nav div {
+    display: block;
+    float: right;
+}
+
+#Search {
+    margin-right: 20px;
+    margin-top: -31px;
+    display: inline;
+    height: 28px;
+}
+
+.MainMenu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.MainMenu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+}
+
+.MainMenu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.MainMenu li a:hover {
+    background: #fff;
+    color: #b11b1d;
+}
+
+.btnSearch {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #242424;
+    color: #fff;
+}
+/**********************************************/
+.Video {
+    margin-top: 20px;
+    box-shadow: 5px 10px 8px #000;
+    display: block;
+}
+
+/*#region Main Content */
+
+section#MainContent {
+    box-shadow: 5px 0px 8px #000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 20px;
+    width: 690px;
+    float: left;
+}
+
+section#MainContent a {
+    color: #b11b1d;
+    text-decoration: underline;
+}
+
+section#MainContent a:visited {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+section#MainContent a:hover {
+    color: #FFA500;
+    text-decoration: underline;
+}
+
+#TitlePost {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #242424;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #242424;
+}
+
+#ContentPost {
+    margin-top: -10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+#ContentPost img {
+    margin: 0;
+    width: 670px;
+}
+
+#ContentPostEvent {
+    margin-top: -10px;
+    height: 168px;
+    background-color: #ffa1a1;
+}
+/*#endregion*/
+
+.ListTheme {
+    width: 290px;
+    height: auto;
+    color: #b11b1d;
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 5px 10px 8px #000;
+}
+
+#ContentForm {
+    width: 690px;
+    height: 300px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    background-color: #a9a9a9;
+}
+
+/*div#ContentLogin {
+    margin-top: 35px;
+    float: left;
+}
+
+#ContentLogin .Label1 {
+    margin-left: 30px;
+}
+#ContentLogin .Label2 {
+    margin-left: 44px;
+}
+#ContentLogin .Label3 {
+    margin-left: 70px;
+}*/
+
+.LButton {
+    margin-left: 70px;
+    border: 2px solid #fff;
+    padding: 8px 80px;
+    background: #b11b1d;
+    color: #fff;
+    font-weight: bold;
+}
+
+.LRButton {
+    margin-left: 148px;
+    border: 2px solid #fff;
+    padding: 8px 80px;
+    background: #b11b1d;
+    color: #fff;
+    font-weight: bold;
+}
+
+.LButton:hover,
+.LRButton:hover {
+    border: 2px solid #b11b1d;
+    background: #fff;
+    color: #b11b1d;
+}
+
+
+div#ContentLoginLink {
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.TButton {
+    margin-left: 50px;
+    border: 2px solid #fff;
+    padding: 8px 80px;
+    background: #1DA1F2;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.GButton {
+    margin-left: 50px;
+    border: 2px solid #fff;
+    padding: 8px 80px;
+    background: #ff4600;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.FButton {
+    margin-left: 50px;
+    border: 2px solid #fff;
+    padding: 8px 80px;
+    background: #3b5998;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.TButton:hover { border: 2px solid #1DA1F2; background: #fff; color: #1DA1F2; }
+.GButton:hover { border: 2px solid #ff4600; background: #fff; color: #ff4600; }
+.FButton:hover { border: 2px solid #3b5998; background: #fff; color: #3b5998; }
+/**********SIDER BAR*************/
+aside {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 20px;
+    width: 290px;
+    float: right;
+    box-shadow: 5px 10px 8px #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#Sidebar {
+    background-color: #fff;
+}
+
+#SidebarBuy {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#SidebarBuy img {
+    width: 175px;
+    height: 212px;
+}
+
+#SidebarTitle {
+    text-align: center;
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    background: #242424;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 290px;
+}
+
+#SidebarBuyNow {
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 55px;
+    border: 2px solid #b11b1d;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #000;
+    color: #b11b1d;
+}
+
+#SidebarBuy a {
+    border: 2px solid #b11b1d;
+    background: #fff;
+    color: #b11b1d;
+}
+
+#SidebarBuy a:hover {
+    border: 2px solid #e1e1e1;
+    background: #b11b1d;
+    color: #fff;
+}
+
+#SidebarLogin {
+    text-align: center;
+}
+
+#SidebarLogin a {
+    text-decoration: none;
+}
+
+#SidebarLogin a:hover {
+    color: #b11b1d;
+}
+
+.SiderbarButton {
+    border: 2px solid #b11b1d;
+    padding: 10px 55px;
+    background: #fff;
+    color: #b11b1d;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #000;
+    font-weight: bold;
+}
+
+.SiderbarButton:hover {
+    border: 2px solid #e1e1e1;
+    background: #b11b1d;
+    color: #fff;
+}
+/******************************************/
+footer {
+    width: 1000px;
+    height: 60px;
+    background-image: url('Images/bg_footer.jpg');
+    background-repeat: no-repeat;
+    box-shadow: 5px 10px 8px #000;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    display: inline;
+    border: 2px solid #fff;
+    padding: 15px 60px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #000;
+    line-height: 59px;
+    background: #b11b1d;
+    font-size: medium;
+    font-weight: bold;
+    color: #fff;
+}
+
+footer a:hover {
+    border: 2px solid #b11b1d;
+    background: #fff;
+    color: #b11b1d;
+}
+
+/* AJAX */
+.AJAX-Load {
+    text-align:center;
+    margin-left: 200px;
+    display: inline;
+    margin-top: -35px;
+}

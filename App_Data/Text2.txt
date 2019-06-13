@@ -1,0 +1,74 @@
+﻿<html>
+
+	<head>
+		<style>
+			body {
+				font-family: 'Times New Roman', Times, serif;
+			}
+			#frm-register {
+				margin: auto;
+				padding: 55px;
+				margin: auto;
+				border: 2px solid #fff;
+				color: #fff;
+				background: #b11b1d;
+			}
+			#frm-infor {
+				margin-top: 4px;
+				
+				text-align: left;
+			}
+			@-webkit-keyframes my {
+				 0% { color: #F8CD0A; } 
+				 50% { color: #fff;  } 
+				 100% { color: #F8CD0A;  } 
+			 }
+			 @-moz-keyframes my { 
+				 0% { color: #F8CD0A;  } 
+				 50% { color: #fff;  }
+				 100% { color: #F8CD0A;  } 
+			 }
+			 @-o-keyframes my { 
+				 0% { color: #F8CD0A; } 
+				 50% { color: #fff; } 
+				 100% { color: #F8CD0A;  } 
+			 }
+			 @keyframes my { 
+				 0% { color: #F8CD0A;  } 
+				 50% { color: #fff;  }
+				 100% { color: #F8CD0A;  } 
+			 } 
+			 .test {
+					display: inline;
+					 font-size:16px;
+					 font-weight:bold;
+				 -webkit-animation: my 700ms infinite;
+				 -moz-animation: my 700ms infinite; 
+				 -o-animation: my 700ms infinite; 
+				 animation: my 700ms infinite;
+			}
+			#img1 {
+				border: 2px solid #fff;
+				border-radius: 50px;
+				background: #fff;
+			}
+			#frm-infor label {
+				font-size: 13px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="frm-register">
+			<img id="img1" src="../Other/UserLogin.png" width="100"/><br />
+			<img src="../Other/level8.gif" width="50"/><br />
+			<label class="test">Exp: 1000/1500</label>
+			<div id="frm-infor">
+				<label>Tài khoản:	๖ۣ##Accout##</label><br/>
+				<label>Tự bạch:	Lót dép hóng gió</label><br />
+				<label>Quyền:	<label class="test">♘Administrator</label></label><br />
+			</div>
+		</div>
+	</body>
+
+</html>

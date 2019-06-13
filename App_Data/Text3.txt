@@ -1,0 +1,62 @@
+﻿<html>
+
+	<head>
+		<style>
+			body {
+				font-family: 'Times New Roman', Times, serif;
+			}
+			#frm-register {
+				text-align: center;
+			}
+			#frm-infor {
+				padding: 55px;
+				text-align: left;
+				margin: auto;
+				border: 2px solid #fff;
+				color: #fff;
+				background: #b11b1d;
+			}
+			@-webkit-keyframes my {
+				 0% { color: #F8CD0A; } 
+				 50% { color: #fff;  } 
+				 100% { color: #F8CD0A;  } 
+			 }
+			 @-moz-keyframes my { 
+				 0% { color: #F8CD0A;  } 
+				 50% { color: #fff;  }
+				 100% { color: #F8CD0A;  } 
+			 }
+			 @-o-keyframes my { 
+				 0% { color: #F8CD0A; } 
+				 50% { color: #fff; } 
+				 100% { color: #F8CD0A;  } 
+			 }
+			 @keyframes my { 
+				 0% { color: #F8CD0A;  } 
+				 50% { color: #fff;  }
+				 100% { color: #F8CD0A;  } 
+			 } 
+			 .test {
+					display: inline;
+					 font-size:24px;
+					 font-weight:bold;
+				 -webkit-animation: my 700ms infinite;
+				 -moz-animation: my 700ms infinite; 
+				 -o-animation: my 700ms infinite; 
+				 animation: my 700ms infinite;
+			}
+			a {
+				text-decoration: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="frm-register">
+			<br/>
+			<h1>Đăng ký không thành công ! Tài khoản: ##Name## đã có người sử dụng<p class="test">X</p></h1>
+			<a href="../Signup.aspx">Trở về trang chủ đăng ký</a>
+		</div>
+	</body>
+
+</html>
